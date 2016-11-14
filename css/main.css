@@ -193,3 +193,20 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .highlight .il { color: #099; }
 
 a:visited { color: #2a7ae2; }
+
+.chapter {
+    display: block;
+    margin: 50px 25px;
+    overflow: hidden;
+}
+
+.chapter video {
+    float: left;
+    width: 300px;
+}
+
+.chapter .blurb {
+    padding: 0 30px;
+    float: left;
+    width: 300px;
+}
