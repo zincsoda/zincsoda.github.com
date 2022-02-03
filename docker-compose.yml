@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: my-site
+    build: .
+    container_name: my-site
+    restart: always
+    ports:
+      - "8080:80"
