@@ -4,18 +4,16 @@ export default function Home() {
       <header className="page-header" />
       <article className="page-content">
         <p>
-          <img src="/images/steve.jpg" className="headshot" alt="Steve Walsh" />
+          <img src="/images/guangzhou.png" className="headshot" alt="Steve Walsh" />
         </p>
         <p>
-          Hi there, I'm a software developer living in Hong Kong with an Irish accent.
+          Hi there, I'm Steve - an Irish expat living in Hong Kong. While my day job involves guiding technology strategy, my true passion is building lovable products. At my core, I'll always be an engineering nerd who loves figuring out how things work. 
         </p>
         <p>
-          I'm married to a woman who still catches my breath every day and keeps me right in every way.{' '}
-          <a href="https://sw-public-01.s3.eu-west-1.amazonaws.com/aeddaed8-71cd-4ec2-ad23-aabef210fd30.jpg">We</a>{' '}
-          have been gifted with three amazing kids who keep life full to the max and bring us tremendous joy.
+          My wife and I have been blessed with three amazing kids who keep life full to the max and bring us tremendous joy.
         </p>
         <p>
-          This site is primarily a playground for me to host various bits I find interesting and test some bits and pieces.
+          This site is really just a playground for me to host various experiments and projects for my own enjoyment. You are of course welcome to look around.
         </p>
       </article>
     </div>

@@ -4,6 +4,10 @@ export default function Fun() {
       <header className="page-header" />
       <article className="page-content">
         <h2>Apps</h2>
+        <h3>Hanzi Journey</h3>
+        <p>
+          A PWA for learning Chinese characters. <a href="https://steve-walsh.com/hanzi-journey">Hanzi Journey.</a>
+        </p>
         <h3>Font Board</h3>
         <p>
           My son and I built this App in React Native. It was developed in an afternoon and pushed to app and play store on the same day.

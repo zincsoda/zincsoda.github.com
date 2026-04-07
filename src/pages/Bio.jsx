@@ -5,7 +5,10 @@ export default function Bio() {
       <article className="page-content">
         <h2>Professional Bio</h2>
         <p>
-          Steve Walsh is Head of Software at Nixplay. He leads a team of engineers, designers and QA folks building the software for Nixplay's fleet of{' '}
+          Steve Walsh is CTO of <a href="https://smartretail.co/">SmartRetail</a>, building an edge-based computer vision platform for out-of-home retail and advertising to measure people flows and audience metrics.
+        </p>
+        <p>
+          Previously, Steve was Head of Software at Nixplay. He led a team of engineers, designers and QA folks building the software for Nixplay's fleet of{' '}
           <a href="https://nixplay.com/">Digital Photo Frames.</a>
         </p>
         <p>
@@ -26,7 +29,7 @@ export default function Bio() {
         <br />
         <h2>Full Bio</h2>
         <p>
-          <a href="https://sw-public-01.s3.eu-west-1.amazonaws.com/CV+Steve+Walsh+2022.pdf">Latest CV</a>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vRKGULdMHIB3rxHw-87Tl9TQ3KaqUha0oNTijZJn3g9shOCHxvlqorEfAKOsJ2_Ic0sDe0TyvLzwII3/pub">Latest CV</a>
         </p>
         <br />
         <h2>Patents</h2>
