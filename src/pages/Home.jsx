@@ -7,7 +7,7 @@ export default function Home() {
           <img src="/images/guangzhou.png" className="headshot" alt="Steve Walsh" />
         </p>
         <p>
-          Hi there, I'm Steve - an Irish expat living in Hong Kong. While my day job involves guiding technology strategy, my true passion is building lovable products. At my core, I'll always be an engineering nerd who loves figuring out how things work. 
+          Hi there, I'm Steve - an Irish expat living in Hong Kong. In my day job, I sit in a lot of meetings and plan tech strategy, my passion is building lovable products and figuring out how things work. 
         </p>
         <p>
           My wife and I have been blessed with three amazing kids who keep life full to the max and bring us tremendous joy.
