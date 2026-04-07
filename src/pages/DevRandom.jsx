@@ -57,7 +57,7 @@ export default function DevRandom() {
       <article className="page-content">
         <h2>/dev/random</h2>
         <p>
-          An unsorted collection of side projects, weekend hacks, talks, and notes to future me.
+          An unsorted collection of side projects, weekend hacks, talks, and notes to future me. More exhaustive list on https://github.com/zincsoda.
         </p>
 
         <br />
