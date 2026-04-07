@@ -5,27 +5,28 @@ export default function Bio() {
       <article className="page-content">
         <h2>Professional Bio</h2>
         <p>
-          Steve Walsh is CTO of <a href="https://smartretail.co/">SmartRetail</a>, building an edge-based computer vision platform for out-of-home retail and advertising to measure people flows and audience metrics.
+          Currently, I'm the CTO of <a href="https://smartretail.co/">SmartRetail</a>, where we are building an 
+          edge-based computer vision platform that measures people flows and audience metrics for out-of-home 
+          retail and advertising.
         </p>
         <p>
-          Previously, Steve was Head of Software at Nixplay. He led a team of engineers, designers and QA folks building the software for Nixplay's fleet of{' '}
-          <a href="https://nixplay.com/">Digital Photo Frames.</a>
+          Before that, I was Head of Software at <a href="https://nixplay.com/">Nixplay</a>. This was a masterclass in building lovable products — 
+          I had the privilege of leading a talented team of engineers, designers, and QA specialists to build 
+          the software powering Nixplay's global fleet of digital photo frames.
         </p>
+
         <p>
-          Prior to coming to Hong Kong, Steve was the CTO for a startup in the UK called Secure Broadcast - now{' '}
-          <a href="https://www.vmltechnology.com/">VML Technologies.</a>
+          My journey to Hong Kong started in the UK, where I served as CTO for a startup called Secure Broadcast 
+          (now <a href="https://www.vmltechnology.com/">VML Technologies.</a>). But my roots are in deep, low-level 
+          engineering. Earlier in my career, I was a senior researcher at SAP working on the 
+          <a href="https://www.saphana.com/community/about-hana/deployment-options/sap-hana-enterprise-cloud">HANA Enterprise Cloud</a>, 
+          and I spent time researching and <a href="https://www.blopeur.com/benoithudzia.html#project-and-codes">contributing</a> to Qemu/KVM, 
+          the Linux Kernel, and OpenStack.
+          contributing to Qemu/KVM, the Linux Kernel, and OpenStack. I've also spent time building high-stakes 
+          trading technology for <a href="https://www.nyse.com/technology">NYSE Technologies</a> and IP video 
+          streaming solutions for <a href="https://www.americandynamics.net/Products/VideoEdge_NVR">Tyco - American Dynamics</a>.
         </p>
-        <p>
-          Before that, he was a senior researcher at SAP working on a{' '}
-          <a href="https://www.saphana.com/community/about-hana/deployment-options/sap-hana-enterprise-cloud">HANA Enterprise Cloud</a>{' '}
-          as well as researching and{' '}
-          <a href="https://www.blopeur.com/benoithudzia.html#project-and-codes">contributing</a> to Qemu/KVM, Linux Kernel and Openstack.
-        </p>
-        <p>
-          He has also worked in Trading Technology for{' '}
-          <a href="https://www.nyse.com/technology">NYSE Technologies</a> and IP Video Streaming solutions for{' '}
-          <a href="https://www.americandynamics.net/Products/VideoEdge_NVR">Tyco - American Dynamics</a>.
-        </p>
+
         <br />
         <h2>Full Bio</h2>
         <p>
@@ -33,7 +34,27 @@ export default function Bio() {
         </p>
         <br />
         <h2>Patents</h2>
-        <p>Steve has developed patents for Nixplay, Secure Broadcast and SAP. He is well versed in the global software patent process.</p>
+        <p>
+          <strong>Digital Media Frame and Method for Configuring a Field of View</strong>
+          <br />
+          Nixplay • US Patent 20210352206 (Issued Nov 2021) • Lead Inventor
+          <br />
+          Authored the full patent for a method to dynamically adjust media display based on user proximity and viewing angles, optimizing the "living room" experience.
+        </p>
+        <p>
+          <strong>Video Broadcast System and Method of Disseminating Video Content</strong>
+          <br />
+          Secure Broadcast • US Patent 10735798B2 (Issued Aug 2020) • System Architect
+          <br />
+          Designed the core technical architecture and drafted the technical filing for a secure, mobile-first video dissemination system used by enterprise clients.
+        </p>
+        <p>
+          <strong>Cloud-Enabled Distributed System with Virtual Machine Checkpointing</strong>
+          <br />
+          SAP • Co-Inventor
+          <br />
+          Developed high-availability mechanisms for distributed cloud environments, ensuring system resilience and data integrity during failures.
+        </p>
       </article>
     </div>
   )

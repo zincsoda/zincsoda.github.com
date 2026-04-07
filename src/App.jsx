@@ -2,8 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import Bio from './pages/Bio'
-import Fun from './pages/Fun'
-import Notes from './pages/Notes'
+import DevRandom from './pages/DevRandom'
 
 export default function App() {
   return (
@@ -11,8 +10,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/public" element={<Bio />} />
-        <Route path="/projects" element={<Fun />} />
-        <Route path="/notes" element={<Notes />} />
+        <Route path="/dev/random" element={<DevRandom />} />
       </Route>
     </Routes>
   )

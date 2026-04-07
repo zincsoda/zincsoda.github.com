@@ -3,8 +3,7 @@ import { NavLink } from 'react-router-dom'
 const navItems = [
   { to: '/', label: 'Hello' },
   { to: '/public', label: 'Bio' },
-  { to: '/projects', label: 'Fun' },
-  { to: '/notes', label: 'Notes to self' },
+  { to: '/dev/random', label: '/dev/random' },
 ]
 
 export default function Header() {
