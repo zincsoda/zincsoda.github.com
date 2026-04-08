@@ -57,7 +57,7 @@ export default function DevRandom() {
       <article className="page-content">
         <h2>/dev/random</h2>
         <p>
-          An unsorted collection of side projects, weekend hacks, talks, and notes to future me. More exhaustive list on <a href="https://github.com/zincsoda">My GitHub</a>.
+          An unsorted collection of side projects, weekend hacks, talks, and notes to future me. More exhaustive list on <a href="https://github.com/zincsoda" target="_blank" rel="noopener noreferrer">My GitHub</a>.
         </p>
 
         <br />
@@ -69,7 +69,7 @@ export default function DevRandom() {
             <ul>
               {project.links.map((link) => (
                 <li key={link.url}>
-                  <a href={link.url}>{link.label}</a>
+                  <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label}</a>
                 </li>
               ))}
             </ul>
@@ -80,8 +80,8 @@ export default function DevRandom() {
         <h2>Deep tech</h2>
         <h3>Project Hecatonchire</h3>
         <p>
-          Working with the extraordinary <a href="https://blopeur.com">Benoit Hudzia</a>, I was heavily involved in this project during my time at SAP
-          Research. <a href="https://hecatonchire.com">Hecatonchire</a> (meaning "Hundred-Handed One" in Greek mythology) is a framework of tools
+          Working with the extraordinary <a href="https://blopeur.com" target="_blank" rel="noopener noreferrer">Benoit Hudzia</a>, I was heavily involved in this project during my time at SAP
+          Research. <a href="https://hecatonchire.com" target="_blank" rel="noopener noreferrer">Hecatonchire</a> (meaning "Hundred-Handed One" in Greek mythology) is a framework of tools
           (kernel and userspaces) designed to provide memory, I/O, and CPU resource aggregation for x86/Linux applications and Linux/KVM VMs using
           commodity hardware and RDMA-enabled interconnects.
         </p>
@@ -92,7 +92,7 @@ export default function DevRandom() {
           <section key={talk.title}>
             <h3>{talk.title}</h3>
             <p>
-              {talk.description} <a href={talk.link.url}>{talk.link.label}</a>.
+              {talk.description} <a href={talk.link.url} target="_blank" rel="noopener noreferrer">{talk.link.label}</a>.
             </p>
           </section>
         ))}
@@ -105,7 +105,7 @@ export default function DevRandom() {
         <ul>
           {notes.map((note) => (
             <li key={note.url}>
-              <a href={note.url}>{note.label}</a>
+              <a href={note.url} target="_blank" rel="noopener noreferrer">{note.label}</a>
             </li>
           ))}
         </ul>
