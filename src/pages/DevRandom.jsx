@@ -81,7 +81,7 @@ export default function DevRandom() {
         <h3>Project Hecatonchire</h3>
         <p>
           Working with the extraordinary <a href="https://blopeur.com" target="_blank" rel="noopener noreferrer">Benoit Hudzia</a>, I was heavily involved in this project during my time at SAP
-          Research. <a href="https://hecatonchire.com" target="_blank" rel="noopener noreferrer">Hecatonchire</a> (meaning "Hundred-Handed One" in Greek mythology) is a framework of tools
+          Research. <a href="https://steve-walsh.com/hecatonchire.github.com/index.html" target="_blank" rel="noopener noreferrer">Hecatonchire</a> (meaning "Hundred-Handed One" in Greek mythology) is a framework of tools
           (kernel and userspaces) designed to provide memory, I/O, and CPU resource aggregation for x86/Linux applications and Linux/KVM VMs using
           commodity hardware and RDMA-enabled interconnects.
         </p>
