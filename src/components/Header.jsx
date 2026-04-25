@@ -19,8 +19,6 @@ export default function Header() {
                 to={to}
                 className={({ isActive }) => `site-link${isActive ? ' selected' : ''}`}
                 end={to === '/'}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 {label}
               </NavLink>
