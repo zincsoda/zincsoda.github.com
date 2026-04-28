@@ -61,6 +61,19 @@ export default function DevRandom() {
         </p>
 
         <br />
+        <section>
+          <h2>Idea Gen</h2>
+          <p>
+            Versioned HTML design files for teams — collaborate on UI specs without losing history.
+          </p>
+          <ul>
+            <li>
+              <a href="https://idea-gen.cc/" target="_blank" rel="noopener noreferrer">Visit Idea Gen</a>
+            </li>
+          </ul>
+        </section>
+
+        <br />
         <h2>Projects and hacks</h2>
         {projects.map((project) => (
           <section key={project.title}>
