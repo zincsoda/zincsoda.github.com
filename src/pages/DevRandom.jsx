@@ -1,5 +1,17 @@
 const projects = [
   {
+    title: 'Home Bus Routes',
+    description:
+      'Live Hong Kong bus arrivals for stops near home — KMB routes and ETAs in a simple page.',
+    links: [{ label: 'Visit Home Bus Routes', url: 'https://steve-walsh.com/home-bus-routes/' }]
+  },
+  {
+    title: 'Multi clock app',
+    description:
+      'A React web app with several world clocks at once, for when you are juggling a few time zones.',
+    links: [{ label: 'Visit Multi clock app', url: 'https://steve-walsh.com/multi-clock-app/' }]
+  },
+  {
     title: 'Hanzi Journey',
     description: 'A progressive web app for learning Chinese characters.',
     links: [{ label: 'Visit Hanzi Journey', url: 'https://steve-walsh.com/hanzi-journey' }]
