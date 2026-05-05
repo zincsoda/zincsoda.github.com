@@ -5,26 +5,23 @@ export default function Bio() {
       <article className="page-content">
         <h2>Professional Bio</h2>
         <p>
-          Currently, I'm the CTO of <a href="https://smartretail.co/" target="_blank" rel="noopener noreferrer">SmartRetail</a>, where we are building an 
-          edge-based computer vision platform that measures people flows and audience metrics for out-of-home 
-          retail and advertising.
+          I'm the CTO of <a href="https://smartretail.co/" target="_blank" rel="noopener noreferrer">SmartRetail</a>, where we're building an edge-based computer
+          vision platform that measures people flows and audience metrics for out-of-home retail and advertising.
         </p>
         <p>
-          Before that, I was Head of Software at <a href="https://nixplay.com/" target="_blank" rel="noopener noreferrer">Nixplay</a>. This was a masterclass in building lovable products — 
-          I had the privilege of leading a talented team of engineers, designers, and QA specialists to build 
-          the software powering Nixplay's global fleet of digital photo frames.
+          Before SmartRetail, I was Head of Software at <a href="https://nixplay.com/" target="_blank" rel="noopener noreferrer">Nixplay</a>. This was a masterclass in
+          building lovable products — I had the privilege of leading a talented team of engineers, designers, and QA
+          specialists to build the software powering Nixplay's global fleet of digital photo frames.
         </p>
-
         <p>
-          My journey to Hong Kong started in the UK, where I served as CTO for a startup called Secure Broadcast 
-          (now <a href="https://www.vmltechnology.com/" target="_blank" rel="noopener noreferrer">VML Technologies.</a>). But my roots are in deep, low-level 
-          engineering. Earlier in my career, I was a senior researcher at SAP working on the 
-          <a href="https://www.saphana.com/community/about-hana/deployment-options/sap-hana-enterprise-cloud" target="_blank" rel="noopener noreferrer">HANA Enterprise Cloud</a>, 
-          and I spent time researching and <a href="https://www.blopeur.com/benoithudzia.html#project-and-codes" target="_blank" rel="noopener noreferrer">contributing</a> to Qemu/KVM, 
-          the Linux Kernel, and OpenStack.
-          contributing to Qemu/KVM, the Linux Kernel, and OpenStack. I've also spent time building high-stakes 
-          trading technology for <a href="https://www.nyse.com/technology" target="_blank" rel="noopener noreferrer">NYSE Technologies</a> and IP video 
-          streaming solutions for <a href="https://www.americandynamics.net/Products/VideoEdge_NVR" target="_blank" rel="noopener noreferrer">Tyco - American Dynamics</a>.
+          My journey to Hong Kong started in the UK, where I served as CTO for a startup called Secure Broadcast
+          (now <a href="https://www.vmltechnology.com/" target="_blank" rel="noopener noreferrer">VML Technologies</a>). But my roots are in deep, low-level
+          engineering. Earlier in my career, I was a senior researcher at SAP working on the
+          <a href="https://www.saphana.com/community/about-hana/deployment-options/sap-hana-enterprise-cloud" target="_blank" rel="noopener noreferrer">HANA Enterprise Cloud</a>,
+          and I spent time researching and <a href="https://www.blopeur.com/benoithudzia.html#project-and-codes" target="_blank" rel="noopener noreferrer">contributing</a> to Qemu/KVM,
+          the Linux Kernel, and OpenStack. I've also built high-stakes trading technology for <a href="https://www.nyse.com/technology" target="_blank" rel="noopener noreferrer">NYSE
+          Technologies</a> and IP video streaming solutions for <a href="https://www.americandynamics.net/Products/VideoEdge_NVR" target="_blank" rel="noopener noreferrer">Tyco - American
+          Dynamics</a>.
         </p>
 
         <br />
