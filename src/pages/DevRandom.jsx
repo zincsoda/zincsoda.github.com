@@ -8,7 +8,7 @@ const projects = [
   {
     title: 'Signage Timeboard',
     description:
-      'A React web app of multiple world clocks for use in signage displays, built to keep venue schedules and time-sensitive information visible.',
+      'Multiple world clocks for use in signage displays, built to keep venue schedules and time-sensitive information visible.',
     links: [{ label: 'Visit Signage Timeboard', url: 'https://steve-walsh.com/multi-clock-app/' }]
   },
   {
