@@ -6,10 +6,10 @@ const projects = [
     links: [{ label: 'Visit Home Bus Routes', url: 'https://steve-walsh.com/home-bus-routes/' }]
   },
   {
-    title: 'Multi clock app',
+    title: 'Signage Timeboard',
     description:
-      'A React web app with several world clocks at once, for when you are juggling a few time zones.',
-    links: [{ label: 'Visit Multi clock app', url: 'https://steve-walsh.com/multi-clock-app/' }]
+      'A React web app of multiple world clocks for use in signage displays, built to keep venue schedules and time-sensitive information visible.',
+    links: [{ label: 'Visit Signage Timeboard', url: 'https://steve-walsh.com/multi-clock-app/' }]
   },
   {
     title: 'Hanzi Journey',
