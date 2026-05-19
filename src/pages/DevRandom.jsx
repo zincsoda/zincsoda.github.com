@@ -3,7 +3,7 @@ const projects = [
     title: 'Home Bus Routes',
     description:
       'Live Hong Kong bus arrivals for stops near home — KMB routes and ETAs in a simple page.',
-    links: [{ label: 'Visit Home Bus Routes', url: 'https://steve-walsh.com/home-bus-routes/' }]
+    links: [{ label: 'Visit Home Bus Routes', url: 'https://steve-walsh.com/hbr/' }]
   },
   {
     title: 'Signage Timeboard',
