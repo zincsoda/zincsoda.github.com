@@ -12,11 +12,6 @@ const projects = [
     links: [{ label: 'Visit Signage Timeboard', url: 'https://steve-walsh.com/multi-clock-app/' }]
   },
   {
-    title: 'Hanzi Journey',
-    description: 'A progressive web app for learning Chinese characters.',
-    links: [{ label: 'Visit Hanzi Journey', url: 'https://steve-walsh.com/hanzi-journey' }]
-  },
-  {
     title: 'Font Board',
     description:
       'Built with my son in React Native in a single afternoon, then shipped to both app stores the same day. Usage is low, but the memories are high.',
