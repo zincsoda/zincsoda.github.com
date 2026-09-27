@@ -15,7 +15,7 @@ const sections = [
       },
       {
         href: 'https://steve-walsh.com/gf14',
-        label: 'GF0014 Character Breakdown',
+        label: 'Hanzi components',
         description: 'Break down Chinese characters into their GF0014 components.',
       },
     ],
