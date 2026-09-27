@@ -21,7 +21,7 @@ const apps = [
 
 const navItems = [
   { to: '/', label: 'Hello' },
-  { to: '/public', label: 'Bio' },
+  { to: '/bio', label: 'Bio' },
   { type: 'apps' },
   { to: '/dev/random', label: '/dev/random' },
 ]
@@ -86,8 +86,8 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="wrapper">
-        <div className="site-title">Steve Walsh</div>
-        <nav className="site-nav">
+        <NavLink className="site-title" to="/">Steve Walsh</NavLink>
+        <nav className="site-nav" aria-label="Primary navigation">
           <div className="trigger">
             {navItems.map((item) => {
               if (item.type === 'apps') {

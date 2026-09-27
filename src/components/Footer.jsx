@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <div className="wrapper">
-        <div id="social" className="footer-col-wrapper">
+        <div className="social-links">
           <a href="mailto:steven.walsh39@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
             <img className="icon" src="/images/email.png" alt="" />
           </a>

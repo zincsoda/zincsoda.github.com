@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Navigate, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import Bio from './pages/Bio'
@@ -9,7 +9,8 @@ export default function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/public" element={<Bio />} />
+        <Route path="/bio" element={<Bio />} />
+        <Route path="/public" element={<Navigate to="/bio" replace />} />
         <Route path="/dev/random" element={<DevRandom />} />
       </Route>
     </Routes>

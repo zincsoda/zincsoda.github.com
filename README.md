@@ -23,7 +23,7 @@ A GitHub Action (`.github/workflows/deploy-pages.yml`) builds and deploys the si
 
 After that, each push to `master` will build the app and deploy the `dist/` output. Your custom domain (CNAME) in `public/` is included in the build.
 
-To build locally: `npm run build`. The build copies `index.html` to `404.html` so client-side routes like `/public`, `/projects`, `/notes` work on refresh.
+To build locally: `npm run build`. The build copies `index.html` to `404.html` so client-side routes like `/bio` and `/dev/random` work on refresh.
 
 Legacy static pages (e.g. `/flappy.html`, `/clock.html`, `/wwcode.html`) live in `public/` and are served as-is.
 

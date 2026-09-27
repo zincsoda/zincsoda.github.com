@@ -1,13 +1,13 @@
 export default function Home() {
   return (
     <div className="page">
-      <header className="page-header" />
       <article className="page-content">
+        <h1 className="sr-only">Hello</h1>
         <p>
           <img src="/images/guangzhou.png" className="headshot" alt="Steve Walsh" />
         </p>
         <p>
-          Hi there, I'm Steve - an Irish expat living in Hong Kong. In my day job, I sit in a lot of meetings and plan tech strategy, my passion is building lovable products and figuring out how things work. 
+          Hi there, I'm Steve - an Irish expat living in Hong Kong. In my day job, I sit in a lot of meetings and plan tech strategy. My passion is building lovable products and figuring out how things work.
         </p>
         <p>
           My wife and I have been blessed with three amazing kids who keep life full to the max and bring us tremendous joy.

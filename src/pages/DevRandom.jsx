@@ -65,14 +65,12 @@ const notes = [
 export default function DevRandom() {
   return (
     <div className="page">
-      <header className="page-header" />
       <article className="page-content">
-        <h2>/dev/random</h2>
+        <h1>/dev/random</h1>
         <p>
           An unsorted collection of side projects, weekend hacks, talks, and notes to future me. More exhaustive list on <a href="https://github.com/zincsoda" target="_blank" rel="noopener noreferrer">My GitHub</a>.
         </p>
 
-        <br />
         <h2>Projects and hacks</h2>
         {projects.map((project) => (
           <section key={project.title}>
@@ -88,7 +86,6 @@ export default function DevRandom() {
           </section>
         ))}
 
-        <br />
         <h2>Deep tech</h2>
         <h3>Project Hecatonchire</h3>
         <p>
@@ -98,7 +95,6 @@ export default function DevRandom() {
           commodity hardware and RDMA-enabled interconnects.
         </p>
 
-        <br />
         <h2>Talks and workshops</h2>
         {talks.map((talk) => (
           <section key={talk.title}>
@@ -109,7 +105,6 @@ export default function DevRandom() {
           </section>
         ))}
 
-        <br />
         <h2>Scratchpad and notes</h2>
         <p>
           I used to post snippets to Tumblr as a way to bookmark notes to myself. A few remnants and playgrounds are still floating around:
