@@ -1,7 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
-const apps = [
+const projects = [
+  {
+    href: 'https://steve-walsh.com/gf14',
+    label: 'GF0014 Character Breakdown',
+    description: 'Break down Chinese characters into their GF0014 components.',
+  },
   {
     href: 'https://cadence.swlabs.cc/',
     label: 'Cadence',
@@ -22,11 +27,11 @@ const apps = [
 const navItems = [
   { to: '/', label: 'Hello' },
   { to: '/bio', label: 'Bio' },
-  { type: 'apps' },
+  { type: 'projects' },
   { to: '/dev/random', label: '/dev/random' },
 ]
 
-function AppsMenu() {
+function ProjectsMenu() {
   const [open, setOpen] = useState(false)
   const menuRef = useRef(null)
 
@@ -60,10 +65,10 @@ function AppsMenu() {
         aria-haspopup="true"
         onClick={() => setOpen((prev) => !prev)}
       >
-        Apps
+        Projects
       </button>
       <div className="nav-dropdown-menu" role="menu">
-        {apps.map(({ href, label, description }) => (
+        {projects.map(({ href, label, description }) => (
           <a
             key={href}
             href={href}
@@ -90,8 +95,8 @@ export default function Header() {
         <nav className="site-nav" aria-label="Primary navigation">
           <div className="trigger">
             {navItems.map((item) => {
-              if (item.type === 'apps') {
-                return <AppsMenu key="apps" />
+              if (item.type === 'projects') {
+                return <ProjectsMenu key="projects" />
               }
 
               return (
