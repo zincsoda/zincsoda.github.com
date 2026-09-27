@@ -1,15 +1,87 @@
+const github = (repo) => `https://github.com/zincsoda/${repo}`
+
 const projects = [
   {
-    title: 'Home Bus Routes',
+    title: 'Hanzi components',
     description:
-      'Live Hong Kong bus arrivals for stops near home — KMB routes and ETAs in a simple page.',
-    links: [{ label: 'Visit Home Bus Routes', url: 'https://steve-walsh.com/hbr/' }]
+      'Break down Chinese characters into their GF0014 components, with a lookup across the 3,500-character common-use repertoire.',
+    links: [
+      { label: 'Visit Hanzi components', url: 'https://steve-walsh.com/gf14' },
+      { label: 'GitHub Repository', url: github('gf14') }
+    ]
+  },
+  {
+    title: 'Sudoku → CSV',
+    description:
+      'A quick-capture board for typing a sudoku in reading order, then sharing or downloading it as CSV.',
+    links: [
+      { label: 'Visit Sudoku → CSV', url: 'https://steve-walsh.com/sudoku-setter/' },
+      { label: 'GitHub Repository', url: github('sudoku-setter') }
+    ]
+  },
+  {
+    title: 'Bluetooth Device Counter',
+    description:
+      'A local scanner that counts nearby Bluetooth Low Energy advertisements and estimates relative proximity from signal strength.',
+    links: [{ label: 'GitHub Repository', url: github('bluetooth_device_counter') }]
+  },
+  {
+    title: 'OKRs',
+    description: 'An internal tool for a technology team to manage objectives and key results.',
+    links: [{ label: 'GitHub Repository', url: github('okrs') }]
+  },
+  {
+    title: 'ShelfSight',
+    description:
+      'Estimate empty supermarket shelf space from photos, using a vision model on Cloudflare.',
+    links: [{ label: 'GitHub Repository', url: github('shelf-analysis') }]
+  },
+  {
+    title: 'Garden Shed Adventure',
+    description:
+      'A small top-down pixel game about exploring a garden and collecting tools from the shed. It started as a family WhatsApp joke.',
+    links: [
+      { label: 'Play Garden Shed Adventure', url: 'https://shed.swlabs.cc' },
+      { label: 'GitHub Repository', url: github('garden-shed-adventure') }
+    ]
+  },
+  {
+    title: 'Calorie Ticker',
+    description:
+      'A calorie tracker that ticks burn from sleep and wake cycles, then nets it against activities and food.',
+    links: [{ label: 'GitHub Repository', url: github('caltick') }]
+  },
+  {
+    title: 'Random Bible Verse',
+    description: 'A small installable page that shows one King James verse, centered on a dark screen.',
+    links: [
+      { label: 'Visit Random Bible Verse', url: 'https://hidden.swlabs.cc/' },
+      { label: 'GitHub Repository', url: github('hidden') }
+    ]
+  },
+  {
+    title: 'GitHub issue automation',
+    description:
+      'A Telegram-driven pipeline that runs Cursor Agent on GitHub issues, opens a pull request, and can deploy or merge.',
+    links: [{ label: 'GitHub Repository', url: github('gh-issues-automation') }]
   },
   {
     title: 'Signage Timeboard',
     description:
       'Multiple world clocks for use in signage displays, built to keep venue schedules and time-sensitive information visible.',
-    links: [{ label: 'Visit Signage Timeboard', url: 'https://steve-walsh.com/multi-clock-app/' }]
+    links: [
+      { label: 'Visit Signage Timeboard', url: 'https://steve-walsh.com/multi-clock-app/' },
+      { label: 'GitHub Repository', url: github('multi-clock-app') }
+    ]
+  },
+  {
+    title: 'Home Bus Routes',
+    description:
+      'Live Hong Kong bus arrivals for stops near home — KMB routes and ETAs in a simple page.',
+    links: [
+      { label: 'Visit Home Bus Routes', url: 'https://steve-walsh.com/hbr/' },
+      { label: 'GitHub Repository', url: github('hbr') }
+    ]
   },
   {
     title: 'Font Board',
@@ -24,12 +96,12 @@ const projects = [
     title: 'Scoreboard',
     description:
       'A simple Django web app for maintaining an office league for ping pong, pool, chess, and table soccer.',
-    links: [{ label: 'GitHub Repository', url: 'https://github.com/zincsoda/scoreboard' }]
+    links: [{ label: 'GitHub Repository', url: github('scoreboard') }]
   },
   {
     title: 'Image Cropper',
     description: 'An OSX Cocoa utility for cropping images to a specific aspect ratio.',
-    links: [{ label: 'GitHub Repository', url: 'https://github.com/zincsoda/ImageCropping' }]
+    links: [{ label: 'GitHub Repository', url: github('ImageCropping') }]
   }
 ]
 
@@ -67,6 +139,9 @@ export default function DevRandom() {
         </p>
 
         <h2>Projects and hacks</h2>
+        <p>
+          The ten most recently updated public repositories are listed first.
+        </p>
         {projects.map((project) => (
           <section key={project.title}>
             <h3>{project.title}</h3>
